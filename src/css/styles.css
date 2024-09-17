@@ -8,16 +8,10 @@
 @import url('./reset.css');
 @import url('./1-timer.css');
 @import url('./2-snackbar.css');
-
-.btn-back {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: rgb(247, 138, 5);
-  border: none;
-  margin-bottom: 16px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
 }
 .btn-page {
   display: inline-block;
@@ -27,4 +21,14 @@
   cursor: pointer;
   background-color: rgb(247, 5, 5);
   border: none;
+}
+.btn-back {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(247, 138, 5);
+  border: none;
+  margin-bottom: 16px;
 }
